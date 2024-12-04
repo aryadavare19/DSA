@@ -93,12 +93,7 @@ if(curr==tar){
         boolean[] visited = new boolean[v];
 
         // Perform DFS for disconnected graphs
-//        for (int i = 0; i < v; i++) {
-//            if (!visited[i]) {
-//                dfs(graph, i, visited); // Start DFS from the current node
-//            }
-//        }
-//        System.out.println();
+
 
         int src=0;
         int tar=5;
